@@ -52,21 +52,30 @@ Troubleshoot why services failed
 
 Start a service
   sudo systemctl start nginx
+  
 Stop a service
   sudo systemctl stop nginx
+  
 Restart a service
   sudo systemctl restart nginx
+  
 Check status
   sudo systemctl status nginx
+  
 Enable (start on boot)
   sudo systemctl enable nginx
+  
 Disable (don't start on boot)
   sudo systemctl disable nginx
+  
 View logs for a service
   sudo journalctl -u nginx
+  
 View real-time logs
   sudo journalctl -u nginx -f
+  
 List all running services
   systemctl list-units --type=service --state=running
+  
 Check if a service failed
   systemctl is-failed nginx
