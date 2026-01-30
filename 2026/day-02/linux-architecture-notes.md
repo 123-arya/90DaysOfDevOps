@@ -31,7 +31,7 @@ A new process is created using the fork() system call. When fork() is invoked, t
 
 After creation, the child process usually calls the exec() system call to replace its memory space with a new program. This allows the child to run a different executable while keeping the same PID.
 
-###Process Termination
+### Process Termination
 
 When a process finishes execution, it terminates and returns an exit status. The parent process calls wait() or waitpid() to collect this status. This step is important to prevent zombie processes, which are terminated processes that still occupy entries in the process table.
 
@@ -50,23 +50,23 @@ Troubleshoot why services failed
 
 ## Essential systemd Commands
 
-# Start a service
-sudo systemctl start nginx
-# Stop a service
-sudo systemctl stop nginx
-# Restart a service
-sudo systemctl restart nginx
-# Check status
-sudo systemctl status nginx
-# Enable (start on boot)
-sudo systemctl enable nginx
-# Disable (don't start on boot)
-sudo systemctl disable nginx
-# View logs for a service
-sudo journalctl -u nginx
-# View real-time logs
-sudo journalctl -u nginx -f
-# List all running services
-systemctl list-units --type=service --state=running
-# Check if a service failed
-systemctl is-failed nginx
+Start a service
+  sudo systemctl start nginx
+Stop a service
+  sudo systemctl stop nginx
+Restart a service
+  sudo systemctl restart nginx
+Check status
+  sudo systemctl status nginx
+Enable (start on boot)
+  sudo systemctl enable nginx
+Disable (don't start on boot)
+  sudo systemctl disable nginx
+View logs for a service
+  sudo journalctl -u nginx
+View real-time logs
+  sudo journalctl -u nginx -f
+List all running services
+  systemctl list-units --type=service --state=running
+Check if a service failed
+  systemctl is-failed nginx
