@@ -2,21 +2,21 @@
 
 ## Task 1: Create Files
 
--- touch devops.txt
--- touch notes.txt
-cat notes.txt
-vim script.sh
-echo "Hello DevOps"
+- touch devops.txt
+- touch notes.txt
+- cat notes.txt
+- vim script.sh
+- echo "Hello DevOps"
 
 ls -l: to see the permissions
 
 ## Task 2: Read Files
 
-cat notes.txt
-sudo chmod 400 script.sh
-vim script.sh
-head -n 5 /etc/passwd
-tail -n 5 /etc/passwd
+- cat notes.txt
+- sudo chmod 400 script.sh
+- vim script.sh
+- head -n 5 /etc/passwd
+- tail -n 5 /etc/passwd
 
 ## Task 3: Understand Permissions
 
@@ -37,8 +37,8 @@ ls -l
 
 1. writing to a read-only file - what happens?      -- INSERT -- W10: Warning: Changing a readonly file   
 2.ubuntu@ip-172-31-13-222:~$ sudo chmod -w notes.txt
-ubuntu@ip-172-31-13-222:~$ ./notes.txt
--bash: ./notes.txt: Permission denied
+  ubuntu@ip-172-31-13-222:~$ ./notes.txt
+  -bash: ./notes.txt: Permission denied
 
 ## What I Learned
 How to change the permission
