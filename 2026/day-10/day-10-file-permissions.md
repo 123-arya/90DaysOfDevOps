@@ -2,8 +2,8 @@
 
 ## Task 1: Create Files
 
-touch devops.txt
-touch notes.txt
+-- touch devops.txt
+-- touch notes.txt
 cat notes.txt
 vim script.sh
 echo "Hello DevOps"
