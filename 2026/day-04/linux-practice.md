@@ -17,4 +17,3 @@
 - journalctl: Allow to view all system logs.
 - tail -n 50: Shows the last 50 lines of logs.
 - journalctl -u: Shows the logs for a specific systemd service.
-- 
