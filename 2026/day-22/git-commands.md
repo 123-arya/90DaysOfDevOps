@@ -22,8 +22,8 @@ Create a Folder:
   
   cd devops-git-practice
 
-Initialize it:
-git init
+  git init              -> initalize the git
 
+  git status            -> check the status
 
 
