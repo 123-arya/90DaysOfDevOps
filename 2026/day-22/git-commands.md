@@ -1,9 +1,10 @@
 # Task 1: Install and Configure Git
 
 1. Verify Git is installed on your machine
+
 git --version
 
-2. Set up your Git identity — name and email
+3. Set up your Git identity — name and email
 
 git config --global user.name 123-arya
 git config --global user.email aryaparab08@gmail.com
