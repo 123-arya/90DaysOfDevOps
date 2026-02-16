@@ -7,6 +7,7 @@ git --version
 3. Set up your Git identity — name and email
 
 git config --global user.name 123-arya
+
 git config --global user.email aryaparab08@gmail.com
 
 3. Verify your configuration
@@ -17,8 +18,9 @@ git config
 
 Create a Folder:
 
-  mkdir devops-git-practice
-  cd devops-git-practice
+mkdir devops-git-practice
+
+cd devops-git-practice
 
 Initialize it:
 git init
