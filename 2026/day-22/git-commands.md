@@ -9,5 +9,6 @@ git config --global user.name 123-arya
 git config --global user.email aryaparab08@gmail.com
 
 3. Verify your configuration
+
 git config
 
