@@ -21,7 +21,6 @@ mkdir devops-git-practice
 cd devops-git-practice
 
 Initialize it:
-
 git init
 
 
