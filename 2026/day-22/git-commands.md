@@ -17,8 +17,8 @@ git config
 
 Create a Folder:
 
-mkdir devops-git-practice
-cd devops-git-practice
+  mkdir devops-git-practice
+  cd devops-git-practice
 
 Initialize it:
 git init
