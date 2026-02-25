@@ -44,23 +44,23 @@ docker rm <container_id>
 
 # Task 4: Explore
 
-## Run a container in detached mode — what's different?
+### Run a container in detached mode — what's different?
 
 starts it in the background, freeing up your terminal immediately instead of occupying it with container logs.
 
-## Give a container a custom name
+### Give a container a custom name
 
 docker run --name [custom name] -d [image name]
 
-## Map a port from the container to your host
+### Map a port from the container to your host
 
 docker run --name task -d -p host:container nginx
 
-## Check logs of a running container
+### Check logs of a running container
 
 docker logs <container_id>
 
-## Run a command inside a running container
+### Run a command inside a running container
 
 docker exec -it <container_id> bash
 
