@@ -16,11 +16,33 @@
 ## Scenario-Based Practice
 
 ### Scenario 1: Service not starting
-
 #### step 1: 
-##### systemctl status myapp: Check the service is running or failed.
-
-
+##### systemctl status nginx: Check the service is running or failed.
+#### step 2:
+##### systemctl is-enabled nginx: Check if the service restart after the reboot.
 #### step 3:
-##### journalctl -u myapp -n 50: Check the logs of last 50 lines.
-##### 
+##### journalctl -u nginx -n 50: Check the logs of last 50 lines.
+
+### Scenario 2: High CPU Usage
+#### step 1:
+##### top: Shows the live CPU usage.
+#### step 2 : 
+#####ps aux --sort=-%cpu | head -10: Sort the processes by CPU percentage. Note down PID of top processes.
+#### step 3: 
+##### kill <PID>: can kill the CPU pid.
+
+### Scenario 3: Finding Service Logs
+#### step 1: 
+##### systemctl status docker: Check the service is running or failed.
+#### step 2: 
+##### journalctl -u docker -n 10: Check the logs of last 10 lines.
+
+### Scenario 4: File Permissions Issue
+#### step 1:
+##### ls -l demo.sh: Check current permissions of file. Look for: -rw-r--r-- (notice no 'x' = not executable).
+#### step 2: 
+#####chmod +x demo.sh: Add execute permission to file.
+#### Step 3: 
+##### ls -l demo.sh: Verify it worked. Look for: -rwxr-xr-x
+#### Step 4: 
+#####./demo.sh: Run it.
