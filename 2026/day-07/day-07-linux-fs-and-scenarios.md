@@ -27,7 +27,7 @@
 #### step 1:
 ##### top: Shows the live CPU usage.
 #### step 2 : 
-#####ps aux --sort=-%cpu | head -10: Sort the processes by CPU percentage. Note down PID of top processes.
+##### ps aux --sort=-%cpu | head -10: Sort the processes by CPU percentage. Note down PID of top processes.
 #### step 3: 
 ##### kill <PID>: can kill the CPU pid.
 
@@ -41,8 +41,8 @@
 #### step 1:
 ##### ls -l demo.sh: Check current permissions of file. Look for: -rw-r--r-- (notice no 'x' = not executable).
 #### step 2: 
-#####chmod +x demo.sh: Add execute permission to file.
+##### chmod +x demo.sh: Add execute permission to file.
 #### Step 3: 
 ##### ls -l demo.sh: Verify it worked. Look for: -rwxr-xr-x
 #### Step 4: 
-#####./demo.sh: Run it.
+##### ./demo.sh: Run it.
