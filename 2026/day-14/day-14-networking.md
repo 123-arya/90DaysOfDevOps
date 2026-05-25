@@ -1,6 +1,6 @@
 ## Networking Fundamentals & Hands-on Checks
-#### OSI and TCP/IP
-##### OSI model is a conceptual framework for understanding how data is transmitted across network. It consists of seven layers: Application, Presentation, Session, Transport, Network, Data Link, Physical.
+### OSI and TCP/IP
+#### OSI model is a conceptual framework for understanding how data is transmitted across network. It consists of seven layers: Application, Presentation, Session, Transport, Network, Data Link, Physical.
 - Application Layer: The application layer directly interacts with software applications. (eg. browser)
 - Presentation Layer: It encrypts and decrypt the data.
 - Session Layer: The Session Layer acts as the dialogue manager, the opening, closing, and security of communication channels between two devices.
