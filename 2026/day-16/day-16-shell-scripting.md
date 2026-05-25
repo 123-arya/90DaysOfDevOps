@@ -6,5 +6,7 @@ the script may still work in many shells because your current shell tries to exe
 #### Try using single quotes vs double quotes — what's the difference?
 
 ubuntu@DESKTOP-7CJ1O5G:~$ ./greet.sh
+
 Hello, I am Arya Parab, working in DevOps Engineer
+
 Hello, I am $name, working in $role
