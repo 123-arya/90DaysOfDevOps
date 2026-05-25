@@ -56,6 +56,7 @@ protocol: HTTP
 DNS: myapp.com is a domain name.
 IP address: After getting the IP address, your computer knows which server to contact on the internet.
 Port number: 8080 (often use for backend server)
+
 2. Your app can't reach a database at 10.0.1.50:3306 — what would you check first?
 
 sudo systemctl status mysql
