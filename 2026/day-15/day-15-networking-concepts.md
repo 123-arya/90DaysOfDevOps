@@ -8,8 +8,8 @@
 - NS: Defines the authoritative name servers for the domain.
 
 3. Run dig.google.com
-
 <img width="570" height="394" alt="image" src="https://github.com/user-attachments/assets/1cde078c-a593-48c7-a457-47fe29532ff6" />
+
 #### Task 2: IP Addressing
 1. An IPv4 address is a unique address used to identify a device on a network or the internet. It helps computers communicate with each other
 2. A public IP address is used on the internet and can be accessed globally. It is assigned by an Internet Service Provider (ISP).
