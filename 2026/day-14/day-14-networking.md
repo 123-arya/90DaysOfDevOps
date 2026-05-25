@@ -8,3 +8,9 @@
 - Network Layer: The Network Layer manages data transmission between hosts across different networks by handling logical addressing and path finding.
 - DataLink Layer: The Data Link Layer serves as the bridge between the physical hardware and the logical network, ensuring reliable node-to-node delivery of data.
 - Physical Layer: The Physical Layer is responsible for the physical connection between devices. It defines the hardware elements involved in the network, including cables, switches, and other physical components.
+
+#### TCP/IP is practically used for providing communication between computers over the internet. It consists of 4 layers: Application, Transport, Internet, Network Access
+- Application Layer: The applications like web browsers, email clients, and file-sharing tools interact with the network.
+- Transport Layer: Ensures reliable and efficient delivery of data between devices, managing segmentation, ordering, and retransmission as needed.
+- Internet: Responsible for addressing, packaging, and routing data packets so they can travel across networks and reach the correct destination device.
+- Network Access: Responsible for physically transmitting data over network hardware, including cables, switches, and wireless connections.
