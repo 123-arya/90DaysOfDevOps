@@ -45,3 +45,17 @@
 | 3306 | MYSQL   |
 | 6379 | Redis   |
 | 27017| MongoDB |
+3. Run ss -tulpn — match at least 2 listening ports to their services
+tcp        LISTEN      0           4096                      [::]:80                        [::]:*
+tcp        LISTEN      0           4096                      [::]:3306                      [::]:*
+
+### Task 5: Putting It Together
+1. When you run http://my-app.com:8080
+protocol: HTTP
+DNS: myapp.com is a domain name.
+IP address: After getting the IP address, your computer knows which server to contact on the internet.
+Port number: 8080 (often use for backend server)
+2. Your app can't reach a database at 10.0.1.50:3306 — what would you check first?
+sudo systemctl status mysql
+journalctl -u mysql - Check Logs
+Verify Credentials
