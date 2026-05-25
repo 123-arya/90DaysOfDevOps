@@ -25,6 +25,7 @@
 - /28 : 14
 3. Subnet divides one large network into small, manageable and efficient sub-networks.
 4. Quick exercise — fill in:
+#  
 | CIDR | Subnet Mask     | Total IPs | Usable Hosts |
 |------|-----------------|-----------|--------------|
 | /24  | 255.255.255.0   | 256       | 254          |
