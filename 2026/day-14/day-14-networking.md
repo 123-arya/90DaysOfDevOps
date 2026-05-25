@@ -13,4 +13,14 @@
 - Application Layer: The applications like web browsers, email clients, and file-sharing tools interact with the network.
 - Transport Layer: Ensures reliable and efficient delivery of data between devices, managing segmentation, ordering, and retransmission as needed.
 - Internet: Responsible for addressing, packaging, and routing data packets so they can travel across networks and reach the correct destination device.
-- Networ**k Access:** Responsible for physically transmitting data over network hardware, including cables, switches, and wireless connections.
+- Network Access: Responsible for physically transmitting data over network hardware, including cables, switches, and wireless connections.
+
+#### Proctocol Stack
+- HTTP, HTTPS, FTP, SMTP, DNS, SSH, DHCP: Application layer
+- TCP, UDP: Transport Layer
+- IP, ICMP: Internet layer
+- Ethernet, Wi-fi: Network Access layer
+
+#### Example:
+<img width="1347" height="281" alt="image" src="https://github.com/user-attachments/assets/1006574a-6df3-44f0-9899-8d74c901d154" />
+
