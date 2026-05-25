@@ -13,4 +13,4 @@
 - Application Layer: The applications like web browsers, email clients, and file-sharing tools interact with the network.
 - Transport Layer: Ensures reliable and efficient delivery of data between devices, managing segmentation, ordering, and retransmission as needed.
 - Internet: Responsible for addressing, packaging, and routing data packets so they can travel across networks and reach the correct destination device.
-- Network Access: Responsible for physically transmitting data over network hardware, including cables, switches, and wireless connections.
+- Networ**k Access:** Responsible for physically transmitting data over network hardware, including cables, switches, and wireless connections.
